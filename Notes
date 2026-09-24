@@ -1,0 +1,26 @@
+To develop the Project we need to follow the SDLC
+      i.e , Planning, Requirement Analysis, Design, Implement, Test, Deploy,
+Maintain.
+
+Here we two models:
+1. waterfall model: A linear and sequential approach, where each Phase must
+be completed before the next begins.
+>Code Everything, Test and Deploy
+
+2. agile model: 
+>Code, Test and Deploy Every 2 weeks
+        here we also as the DevOps model comes under the agile
+
+3. devops model:
+>Code, Test, Deploy Continuously
+
+DevOps Life Cycle:
+Developers:
+1.continuous development: Plan, code
+2. continuous testing: build, test
+
+          (continuous integration)
+Operations:
+3. continuous deployment: release, deploy
+4. continuous monitoring: operte, monitor
+        
