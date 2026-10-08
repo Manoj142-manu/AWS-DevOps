@@ -23,4 +23,52 @@ Developers:
 Operations:
 3. continuous deployment: release, deploy
 4. continuous monitoring: operte, monitor
+
+
+>Client Server Architecture
+Client:which request the resource(resource like imformation) is the client
+ex:Browser
+Server:which respond to the resource
+note: the client and server should be in the same Network if they need
+to comunicate to each other
+> In the Network all are called as devices and here the devices can be
+either Client or Server
+>devices in network use IP or host name for comunication (hostname:name of the server)
+
+Note:static website as no database where as the dynamic will have database
+
+>Types of Architecture:
+1. 1-Tier Architecture:
+* If the website is running in the localhost or localmachine is called
+1-Tier Architecture 
+*like it as only one layer in that only both the client and server in same
+machine
+
+2. 2-Tier Architecture:
+*In this layer we have seperate the client and the server seperately
+
+3. 3-Tier Architecture: or N-Tier
+* In this layer we have seperate the client, server layer (application layer, and database layer)
+
+Client-->webserver-->application server-->Database Layer
+
+>application server: the server where the application hosted is called Application server
+>Database server: the server which as database installed or data stored is the database server
+>web server: which takes the request from clients and redirect to application server
+Note: we have different environment:
+client->Production environment->pre-production environment->test environment->Dev Environment->developer
+(<--)
+>actually the application and the database server is in the private network
+so now to access this we need the webserver between client and application
+
+
+
+
+
+
+
+
+
+
+
         
