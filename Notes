@@ -5,7 +5,7 @@ Maintain.
 Here we two models:
 1. waterfall model: A linear and sequential approach, where each Phase must
 be completed before the next begins.
->Code Everything, Test and Deploy
+>Code Everything, Test and Deploy.
 
 2. agile model: 
 >Code, Test and Deploy Every 2 weeks
@@ -16,7 +16,7 @@ be completed before the next begins.
 
 DevOps Life Cycle:
 Developers:
-1.continuous development: Plan, code
+1. continuous development: Plan, code
 2. continuous testing: build, test
 
           (continuous integration)
@@ -59,9 +59,17 @@ Note: we have different environment:
 client->Production environment->pre-production environment->test environment->Dev Environment->developer
 (<--)
 >actually the application and the database server is in the private network
-so now to access this we need the webserver between client and application
+so now to access this we need the webserver between client and application.
 
-
+>Browser need two names Hostname and IP address:
+The hostname is provided by the user where as the IP address is provided by the
+DNS where it is the collection of hostnames and IP address
+DNS: where it coneverts the hostname into IP and IP to hostname
+>Flow:
+when request is provided by the user it reachs the local DNS if there is not present in that
+it forwards to the root name server(RNS : this identify that .com, .in, .edu etc) this directs to the Top level Domain
+Name Server: this helps to identify the domain name from here it reachs the SOA where this as the 
+IP address.
 
 
 
